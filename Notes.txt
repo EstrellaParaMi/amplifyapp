@@ -1,0 +1,16 @@
+from the folder type in the terminal
+npm start   
+right now it is set up for port 3000 which is being used
+so it changes to port 3001 and displays a web page.
+
+I already added Victor to it.
+
+The App.css file does the rotation. this makes it spin faster. was 50s now 1s
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+
+Also at save of the CSS file the page is updated 
+The App.js file where my name is requires a page refresh.
